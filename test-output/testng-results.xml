@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-31T16:27:00Z" name="Suite" finished-at="2024-05-31T16:27:48Z" duration-ms="48129">
+    <groups>
+    </groups>
+    <test started-at="2024-05-31T16:27:00Z" name="Test" finished-at="2024-05-31T16:27:48Z" duration-ms="48129">
+      <class name="runner.Testng">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:runner.Testng@4a003cbe]" started-at="2024-05-31T16:26:47Z" name="launchbrowser" finished-at="2024-05-31T16:27:00Z" duration-ms="12597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="login()[pri:1, instance:runner.Testng@4a003cbe]" started-at="2024-05-31T16:27:00Z" name="login" finished-at="2024-05-31T16:27:12Z" duration-ms="12147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="testproduct(java.lang.String)[pri:2, instance:runner.Testng@4a003cbe]" started-at="2024-05-31T16:27:12Z" name="testproduct" data-provider="productSearchData" finished-at="2024-05-31T16:27:27Z" duration-ms="14486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Laptop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testproduct -->
+        <test-method signature="testproduct(java.lang.String)[pri:2, instance:runner.Testng@4a003cbe]" started-at="2024-05-31T16:27:27Z" name="testproduct" data-provider="productSearchData" finished-at="2024-05-31T16:27:33Z" duration-ms="6511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Smartphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testproduct -->
+        <test-method signature="testproduct(java.lang.String)[pri:2, instance:runner.Testng@4a003cbe]" started-at="2024-05-31T16:27:33Z" name="testproduct" data-provider="productSearchData" finished-at="2024-05-31T16:27:40Z" duration-ms="6975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Headphones]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testproduct -->
+        <test-method signature="testproduct(java.lang.String)[pri:2, instance:runner.Testng@4a003cbe]" started-at="2024-05-31T16:27:40Z" name="testproduct" data-provider="productSearchData" finished-at="2024-05-31T16:27:47Z" duration-ms="6856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sony tv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testproduct -->
+        <test-method signature="account()[pri:3, instance:runner.Testng@4a003cbe]" started-at="2024-05-31T16:27:47Z" name="account" finished-at="2024-05-31T16:27:48Z" duration-ms="1097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- account -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:runner.Testng@4a003cbe]" started-at="2024-05-31T16:27:48Z" name="closebrowser" finished-at="2024-05-31T16:27:49Z" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- runner.Testng -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
